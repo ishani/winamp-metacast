@@ -1,0 +1,9 @@
+.vs/
+_builds/
+_obj/
+bin/
+premake5.exe
+premake.bat
+
+receiver/bin/
+receiver/obj/

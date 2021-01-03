@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{67A9880B-D3B2-887C-5C2E-9F7CC836947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\Winamp">
+      <UniqueIdentifier>{622F193B-4EE7-5A88-B7EE-33E4A3C5F578}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sdk\Winamp\DSP.H">
+      <Filter>sdk\Winamp</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Winamp\GEN.H">
+      <Filter>sdk\Winamp</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Winamp\IN2.H">
+      <Filter>sdk\Winamp</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Winamp\OUT.H">
+      <Filter>sdk\Winamp</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Winamp\ipc_pe.h">
+      <Filter>sdk\Winamp</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Winamp\wa_dlg.h">
+      <Filter>sdk\Winamp</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\Winamp\wa_ipc.h">
+      <Filter>sdk\Winamp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gen_metacast.cpp" />
+  </ItemGroup>
+</Project>
